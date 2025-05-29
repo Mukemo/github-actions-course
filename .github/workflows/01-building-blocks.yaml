@@ -1,7 +1,7 @@
-workflow:  01 -  Building blocks
+name:  01 -  Building blocks
 on: push
 
-job: 
+jobs: 
   echo-hello:
     runs-on: ubuntu-latest
     steps:
