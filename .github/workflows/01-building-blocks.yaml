@@ -1,0 +1,19 @@
+workflow:  01 -  Building blocks
+on: push
+
+job: 
+  echo-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Multi-line bash
+        run: |
+          echo "I am"
+          echo "a muti-line "
+          echo "script."
+  echo-goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say goodbye
+        run: |
+          echo 'Failed'
+          echo 'Good Bye'
